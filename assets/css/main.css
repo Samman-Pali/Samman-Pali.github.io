@@ -1234,9 +1234,6 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		background-color: rgba(73, 77, 97, 0.15);
-		padding: 2%;
-		border-radius: 30%;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -1304,8 +1301,8 @@ input, select, textarea {
 		#header .content {
 			border-style: solid;
 			border-color: #ffffff;
-			border-top-width: 1px;
-			border-bottom-width: 1px;
+			border-top-width: 1.5px;
+			border-bottom-width: 1.5px;
 			max-width: 100%;
 		}
 
@@ -1356,6 +1353,7 @@ input, select, textarea {
 				}
 
 				#header nav ul li a {
+					background-color: rgba(0, 0, 0, 0.35);
 					display: block;
 					min-width: 7.5rem;
 					height: 2.75rem;
@@ -1363,7 +1361,7 @@ input, select, textarea {
 					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
-					font-size: 0.8rem;
+					font-size: 0.9rem;
 					border-bottom: 0;
 				}
 
